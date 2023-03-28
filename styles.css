@@ -291,12 +291,15 @@ img {
   padding: 10px;
 }
 
-.badge>span {
+.tags > .badge >li {
+  display: inline-block;
   padding: 3px;
   background-color: grey;
+  margin: 5px;
+  border: 5px;
 }
 
-.badge>span:first-child {
+.badge>li:first-child {
   background-color: black;
   color: white;
 }
